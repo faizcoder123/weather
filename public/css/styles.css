@@ -4,10 +4,10 @@ body {
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-
     display: flex;
     flex-direction: column;
-    min-height: 100vh
+    min-height: 100vh;
+    background-color: #12232E;
 }
 
 .main {
@@ -15,26 +15,31 @@ body {
 }
 
 footer {
-    color: #888881;
+    color: #EEFBFB;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
+  
 }
 
 header {
+    color: #EEFBFB;
     margin-top: 16px;
     margin-bottom: 48px;
+
 }
 
 h1 {
+    color: #EEFBFB;
     font-size: 64px;
     margin-bottom: 16px;
 }
 
 header a {
-    color: #888881;
+    color: #EEFBFB;
     margin-right: 16px;
     text-decoration: none;
+
 }
 
 .portrait {
@@ -42,14 +47,24 @@ header a {
 }
 
 input {
-    border: 1px solid #cccccd;
+    border: 1px solid #888888;
     padding: 8px;
+}
+
+#message-1 {
+    background-color: #203647;
+    color: #EEFBFB;
+}
+#p1{
+color: #EEFBFB;
+
 }
 
 button {
     cursor: pointer;
     border: 1px solid #888889;
-    background: #888888;
+    background: #203647;
     color: white;
     padding: 8px;
+    border-radius: 47%;
 }
